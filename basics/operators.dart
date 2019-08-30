@@ -4,7 +4,10 @@ void main() {
 
   int number;
 
-  number = obj?.sum ?? 0;
+  number = obj?.sum ?? 123;
+
+  var objNew ;
+  print(objNew ??= 100);
 
   print(number);
 }
